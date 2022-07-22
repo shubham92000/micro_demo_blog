@@ -5,7 +5,7 @@ metadata:
 spec:
   type: Nodeport
   selector:
-    app: posts
+    app: shubham9/posts
   ports:
     - name: posts
       protocol: TCP

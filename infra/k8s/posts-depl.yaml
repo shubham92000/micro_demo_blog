@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: posts
-          image: shubham31415/posts
+          image: shubham9/posts
 ---
 apiVersion: v1
 kind: Service
