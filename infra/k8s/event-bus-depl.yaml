@@ -14,12 +14,12 @@ spec:
     spec:
       containers:
         - name: event-bus
-          image: shubham9/event-bus
+          image: shubham31415/event-bus
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: event-bus-srv
+  name: event-bus-clusterip-srv
 spec:
   selector:
     app: event-bus

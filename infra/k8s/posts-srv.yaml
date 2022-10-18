@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: posts-srv
 spec:
-  type: Nodeport
+  type: NodePort
   selector:
-    app: shubham9/posts
+    app: posts
   ports:
     - name: posts
       protocol: TCP
